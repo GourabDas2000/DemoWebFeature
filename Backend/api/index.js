@@ -11,7 +11,9 @@ app.use(cors());
 app.use(express.json());
 
 //api endpoint
-
+app.get("/", (req, res) => {
+  res.send("Hello from Express app!");
+});
 
 
 // database connection
