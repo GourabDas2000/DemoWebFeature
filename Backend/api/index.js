@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import mongoConnection from './src/components/DatabaseConfig.js';
+import mongoConnection from '../src/components/DatabaseConfig.js';
 
 const app = express();
 const PORT = process.env.PORT  || 4000;
