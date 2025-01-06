@@ -4,10 +4,6 @@ import { FileUploader , upload } from '../components/FileUploader.js';
 
 const FileUploaderRoute = express.Router();
 
-FileUploaderRoute.post(
-  "/upload",
-  upload.array("files"),
-  asyncHandler(FileUploader)
-);
+FileUploaderRoute.post("/upload", upload.array("files"), asyncHandler(FileUploader));
 
 export {FileUploaderRoute};
