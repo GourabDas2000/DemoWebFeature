@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "description": "This is for practicing node project",
-  "main": "index.js",
+  "main": "api/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "node api/index.js",
     "dev": "nodemon index.js"
   },
   "dependencies": {
